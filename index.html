@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anne Delaigue - Formation Droit Immobilier</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     body {
       margin: 0;
@@ -86,6 +87,44 @@
       max-width: 600px;
       margin: 0 auto;
     }
+    .formations {
+      background-color: #f9f9f9;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .formations h2 {
+      color: #F03A31;
+      font-size: 28px;
+      margin-bottom: 40px;
+    }
+    .formation-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .formation-card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 20px;
+      max-width: 300px;
+      flex: 1 1 260px;
+      text-align: center;
+    }
+    .formation-card i {
+      color: #F03A31;
+      margin-bottom: 10px;
+    }
+    .formation-card h3 {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    .formation-card p {
+      font-size: 14px;
+      line-height: 1.4;
+      margin-bottom: 15px;
+    }
   </style>
 </head>
 <body>
@@ -99,6 +138,30 @@
     <p>Une expertise juridique, une pédagogie concrète, une certification Qualiopi reconnue. Pour les professionnels de l'immobilier, les écoles et les adultes en reconversion.</p>
     <a href="#formations" class="btn-primary">Découvrir les formations</a>
   </section>
+  <section id="formations" class="formations">
+    <h2>Nos formations</h2>
+    <div class="formation-cards">
+      <div class="formation-card">
+        <i class="fa fa-graduation-cap fa-2x"></i>
+        <h3>Droit immobilier</h3>
+        <p>Maîtrisez les bases juridiques indispensables pour gérer vos transactions. Exemples concrets et cas pratiques.</p>
+        <a href="#" class="btn-primary">En savoir plus</a>
+      </div>
+      <div class="formation-card">
+        <i class="fa fa-balance-scale fa-2x"></i>
+        <h3>RGPD pour les pros</h3>
+        <p>Appliquez les règles de protection des données dans votre activité quotidienne. Mises en situation adaptées aux métiers de l'immobilier.</p>
+        <a href="#" class="btn-primary">En savoir plus</a>
+      </div>
+      <div class="formation-card">
+        <i class="fa fa-comments fa-2x"></i>
+        <h3>Techniques de communication</h3>
+        <p>Développez une communication efficace avec vos clients et partenaires. Outils pratiques pour améliorer vos relations professionnelles.</p>
+        <a href="#" class="btn-primary">En savoir plus</a>
+      </div>
+    </div>
+  </section>
+
 
   <section class="about">
     <img src="images/photo-anne.jpg" alt="Anne Delaigue - portrait professionnel">
